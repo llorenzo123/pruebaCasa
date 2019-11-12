@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang = "es">
+	<head>
+		<!--es el título que aparecerá en la barra de herramientas del navegador,
+		es el nombre con el que se guardará si lo guardamos como favoritos. -->
+		<title>página web</title>
+		<!-- META: damos información a la página para cuando se busque en el navegador-->
+		<meta name = "description" content = "Esta es mi primera página web" />
+		<meta name = "author" content = "profe" />
+		<!-- etiqueta meta para indicar la codificación -->
+		<meta charset = "utf-8" />
+	</head>
+		<body>
+		<!-- creamos un header de color rojo que sea mi blog, usamos
+		la etiqueta STYLE porque permite añadir lineas deltro de la propia etiqueta estamos 
+		añadiendo el estilo -->
+		<header style = "background-color: red">
+		<!-- etiqueta <u> subrayado, <b> o <strong> negrita,<i> o <em> cursiva --> 
+			<i><u>
+			<h1 
+			style = "font-size: 28px; color:back;"
+			align = "center"><!-- alineado de texto: left, center,right,justify -->
+			MI BLOG </h1>
+			</u></i>
+		<!--<h1 style = "background-color: green"> MI BLOG </h1> Añade otra linea en color verde-->
+		  <!--  <h2> mi BLOG </h2>
+			  <h3> mi BLOG </h3> -->
+			 		  
+		
+		</header>
+		 
+			 <nav> <!-- seccion de una página cuyo propósito es proporcionar enlaces de navegación -->
+				<ul> <!-- listas no ordenadas --->
+					<li>Principal</li>
+					<li>Ayuda</li>
+					<li>Contacto</li>
+				</ul>
+			</nav>
+			<!-- si queremso listas ordenadas es con <ol> 
+			<ol>
+			<li value="3">Principal</li>
+					<li>Ayuda</li>
+					<li>Contacto</li>
+			</ol>
+		-->
+		<section> <!-- genera una sección del contenido -->
+			<article> <!--para separar los elementos de la sección-->
+				<hgroup> <!--para etiqueta para agrupar titulares -->
+					<!--<h1 style = "color:purple;"> -->
+					<h1>
+					Título del primer artículo
+					</h1>
+				</hgroup>
+				
+				<time>Publicado el 09-10-2019 </time>
+				<p> la etiqueta p sirive para establecer párrafos, puedo poner por el medio letras más pequeñas con la etiqueta
+				small, <small> este sería un ejemplo </small> </p>
+				<pre> la etiqueta pre formatea el texto, 
+			respeta tabulaciones, espaciados... </pre>
+			
+			<!-- la etiqueta a permite hacer referencia a otra página web que se especifica con
+			la etiqueta href -->
+			<a href = "https://www.google.com"> mi sitio web</a>
+			
+			<!--salto de linea -->
+			<br> </br>
+			<!-- INSERTAR IMÁGENES con img 
+			Si la imagen está en el mismo directorio que la web no hay que poner la ruta, solo el nombre
+			del archivo
+			-->
+			<img src ="logo.png" alt="texto descriptivo"/>
+			
+			</article>
+			<article>
+				<hgroup>
+					<h1> Título segundo artículo </h1>
+				</hgroup>
+				<time>Publicado 12-12-2019 </time>
+				<p>Esto es un segundo artículo para esta página web</p>
+			</article>
+		
+		</section>
+		
+		<aside> <!-- es para información a mayores, contenido relacionado con la info de la web como la cita
+		de un libro, mensajes etc -->
+			<blockquote> <!-- se utiliza para que los autores inserten citas -->
+				CITA 1
+			</blockquote>
+			<!-- si queremos colocar una cita de un sitio web -->
+			<blockquote cite = "http://www.facebook.com">
+				CITA 2
+			</blockquote>
+			
+		Archivo
+		Acerca de
+		</aside>
+	<footer style = "color:green; background-color:black">
+	Derechos reservados
+	</footer>
+		</body>
+	
+</html>
